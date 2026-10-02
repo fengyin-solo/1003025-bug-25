@@ -17,6 +17,7 @@ const Dooraccess = () => import('@/views/dooraccess/index.vue')
 const Patrol = () => import('@/views/patrol/index.vue')
 const Fuel = () => import('@/views/fuel/index.vue')
 const Rental = () => import('@/views/rental/index.vue')
+const Reminder = () => import('@/views/reminder/index.vue')
 const Electricbill = () => import('@/views/electricbill/index.vue')
 const Demolition = () => import('@/views/demolition/index.vue')
 const Emergency = () => import('@/views/emergency/index.vue')
@@ -42,6 +43,7 @@ const router = createRouter({
     { path: '/patrol', name: 'patrol', component: Patrol },
     { path: '/fuel', name: 'fuel', component: Fuel },
     { path: '/rental', name: 'rental', component: Rental },
+    { path: '/rental/reminder', name: 'rental-reminder', component: Reminder },
     { path: '/electricbill', name: 'electricbill', component: Electricbill },
     { path: '/demolition', name: 'demolition', component: Demolition },
     { path: '/emergency', name: 'emergency', component: Emergency },
